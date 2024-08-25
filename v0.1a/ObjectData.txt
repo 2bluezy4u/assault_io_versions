@@ -1,0 +1,5 @@
+ID:assetName:itemClass:canHurt:hitPoints:rewardOnHurt:isDrivable:imageFile:canEquip:canDrop:canCarry
+1:Crate:crateBox:0:0:0:0:crateBox1.png:0:0:0
+2:DesertBuildingRoof:desertRoof1:0:0:0:0:desertRoof1.png:0:0:0
+3:DesertBuildingFloor:desertFloor1:0:0:0:0:desertFloor1.png:0:0:0
+4:PlayerSkin1:playerClass:1:0:0:0:playerSkin1.png:0:0:0

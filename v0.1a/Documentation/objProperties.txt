@@ -1,0 +1,34 @@
+-- Creating an instance --
+To create an instance of an object, a single function is called.
+
+Example: createObject('ID goes here');
+
+-- Logic behind variables
+This will import the property data along with the instances
+individual ID into the 'loadedObjs' array.
+
+The individual ID is then stored as a key with the objects listed
+index (within the loadedObjs array) as its respective value.
+
+This allows the object to obtain a unique ID in a short iterable
+dictionary whilst also retaining an efficient searching algorithm.
+
+This method also allows for multiple iterable new instances i.e.
+map loading.
+
+-- Extra properties
+As some objects require more properties than others there are
+optable values for these properties stored in the JSON.
+
+Example : if positional data is not required then setting value
+	to 0 will be viewed as an unrequired input when creating
+	the object itself.
+
+If extra properties are required then they are processed in an args
+array passed to the createObject function.
+
+Example : createObject('ID goes here', ['position:15,18','hp:57']);
+(if no property data is required then the arg is not required)
+
+If required property data is not passed to the function then a
+default value of 0 is used.

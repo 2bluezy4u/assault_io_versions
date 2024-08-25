@@ -1,0 +1,2 @@
+tankBase1 turret centre: 95 162
+tankTurret1 turret centre: 52 66
